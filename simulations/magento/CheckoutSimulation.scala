@@ -9,7 +9,7 @@ import assertions._
 class CheckoutSimulation extends Simulation {
     val userOption: Int = Integer.getInteger("users", 1).toInt
     val timeOption: Int = Integer.getInteger("time", 1).toInt
-    val defaultUrlBase = "http://192.237.222.85/magento"
+    val defaultUrlBase = "http://127.0.0.1/magento"
 
     val webheads = System.getProperty("webheads", defaultUrlBase).split(",")
 
